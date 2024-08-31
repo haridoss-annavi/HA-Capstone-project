@@ -62,4 +62,20 @@ The project uses the following machine learning models to predict credit card fa
 The best-performing model is chosen based on the accuracy, precision, recall, and F1 score.
 
 
+**Results**
+•	The final model achieved an accuracy of 
+The highest values of Normal transactions are 284315, while of Fraudulent transactions are just 492.
 
+The average value of normal transactions are small(USD 88.29) than fraudulent transactions that is USD 122.21
+
+**Best score:**
+
+SMOTE (OverSampling) = RandomForest =
+
+Accuracy: 0.9995611109160493 Precision: 0.9041095890410958 Recall: 0.7857142857142857 F2: 0.806845965770171
+
+This is a considerably difference by the second best model that is 0.8252 that uses just RandomForests with some Hyper Parameters.
+
+**Worst Score: **
+
+Logistic Regression with GridSearchCV to get the Best params to fit and predict where the recall = 66.67% and f2 = 70%.
