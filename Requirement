@@ -1,11 +1,11 @@
 
-<H1> Data Science Bootcamp </H1>
-Capstone Project
-Credit Card Fraud Prediction Requirements document
+Data Science Bootcamp Capstone Project - Credit Card Fraud Prediction 
 
 
-Project 2
+Project requirement
+--------------------
 FindDefault (Prediction of Credit Card fraud)
+
 Problem Statement:
 A credit card is one of the most used financial products to make online purchases and payments. Though the Credit cards can be a convenient way to manage your finances, they can also be risky. Credit card fraud is the unauthorized use of someone else's credit card or credit card information to make purchases or withdraw cash.
 It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. 
@@ -52,8 +52,6 @@ Below are the metrics for the successful submission of this case study.
 	Perform model validation. 
  
 
-
- 
 APPENDIX
 
 Key Points to Consider Before Submitting Your Project:
@@ -72,8 +70,6 @@ When evaluating a data science capstone project, we look for the following attri
 •	Package your solution in a well-structured zip file with a detailed README explaining how to set up and run the end-to-end pipeline.
 •	Demonstrate excellent documentation skills by providing clear explanations of the models and their benefits to both stakeholders and potential users.
 •	Include interactive components or visualizations in your project to enhance the user experience and facilitate understanding of the data and results.
-
-
 
 Organizing Assets for Data Science Capstone Projects
 Before you begin working on your data science capstone project, it is essential to organize your assets in a structured manner to facilitate smooth submission and evaluation. Follow these guidelines for organizing your project assets during development and deployment:
@@ -102,13 +98,6 @@ Before submitting your data science capstone project, make sure to check the fol
 If you can confidently answer "Yes" to all the above points, you are ready to submit your data science capstone project. Submit the following to your learning advisor:
 1.	GitHub Repo URL: Provide the URL to your GitHub repository containing the well-organized and documented data science project code.
 2.	Deployed Application URL: If applicable, include the URL to the deployed application. Ensure that the application is publicly accessible for evaluation purposes.
-
-
-
-
-
-
-
 
 
 What Should I Build? 
