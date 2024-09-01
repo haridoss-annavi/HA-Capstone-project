@@ -42,12 +42,13 @@ credit-card-fault-prediction/
 
 **Dependencies**
 The project requires the following Python libraries:
-•	pandas
-•	numpy
-•	scikit-learn
-•	matplotlib
-•	seaborn
-•	jupyter
+1.	Pandas
+2.	numpy
+3.	scikit-learn
+4.	matplotlib
+5.	seaborn
+6.	Jupyter
+
 
 **GitHub Location**
 
