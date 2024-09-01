@@ -1,0 +1,128 @@
+
+Data Science Bootcamp 
+Capstone Project
+Credit Card Fraud Prediction Requirements document
+
+
+Project 2
+FindDefault (Prediction of Credit Card fraud)
+Problem Statement:
+A credit card is one of the most used financial products to make online purchases and payments. Though the Credit cards can be a convenient way to manage your finances, they can also be risky. Credit card fraud is the unauthorized use of someone else's credit card or credit card information to make purchases or withdraw cash.
+It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. 
+The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+We have to build a classification model to predict whether a transaction is fraudulent or not.
+
+Your focus in this project should be on the following: 
+The following is recommendation of the steps that should be employed towards attempting to solve this problem statement: 
+	Exploratory Data Analysis: Analyze and understand the data to identify patterns, relationships, and trends in the data by using Descriptive Statistics and Visualizations. 
+	Data Cleaning: This might include standardization, handling the missing values and outliers in the data. 
+	Dealing with Imbalanced data: This data set is highly imbalanced. The data should be balanced using the appropriate methods before moving onto model building.
+	Feature Engineering: Create new features or transform the existing features for better performance of the ML Models. 
+	Model Selection: Choose the most appropriate model that can be used for this project. 
+	Model Training: Split the data into train & test sets and use the train set to estimate the best model parameters. 
+	Model Validation: Evaluate the performance of the model on data that was not used during the training process. The goal is to estimate the model's ability to generalize to new, unseen data and to identify any issues with the model, such as overfitting. 
+	Model Deployment: Model deployment is the process of making a trained machine learning model available for use in a production environment. 
+
+Timeline 
+We expect you to do your best and submit a solution within 2 weeks. 
+Deliverables 
+Please share the following deliverables in a zip file. 
+	A report (PDF) detailing: 
+	Description of design choices and Performance evaluation of the model 
+	Discussion of future work 
+	The source code used to create the pipeline 
+ 
+Tasks/Activities List 
+Your code should contain the following activities/Analysis: 
+	Collect the time series data from the CSV file linked here. 
+	Exploratory Data Analysis (EDA) - Show the Data quality check, treat the missing values, outliers etc if any. 
+	Get the correct datatype for date. 
+	Balancing the data.
+	Feature Engineering and feature selection. 
+	Train/Test Split - Apply a sampling distribution to find the best split. 
+	Choose the metrics for the model evaluation 
+	Model Selection, Training, Predicting and Assessment 
+	Hyperparameter Tuning/Model Improvement 
+	Model deployment plan. 
+ 
+Success Metrics 
+Below are the metrics for the successful submission of this case study. 
+	The accuracy of the model on the test data set should be > 75% (Subjective in nature) 
+	Add methods for Hyperparameter tuning. 
+	Perform model validation. 
+ 
+
+
+ 
+APPENDIX
+
+Key Points to Consider Before Submitting Your Project:
+When evaluating a data science capstone project, we look for the following attributes. It is essential for you to keep these in mind while building and submitting your data science capstone project:
+1.	Data Exploration and Analysis: Conduct thorough data exploration and analysis to gain insights into the data's characteristics, patterns, and relationships. Use appropriate visualizations and descriptive statistics to understand the data better.
+2.	Data Preprocessing: Clean, preprocess, and transform the data to make it suitable for modeling. Handle missing values, outliers, and data inconsistencies appropriately.
+3.	Feature Engineering: Create new features or transform existing features to improve model performance and capture relevant information from the data.
+4.	Model Selection: Choose appropriate machine learning algorithms or statistical models based on the problem type and data characteristics. Consider the trade-offs between interpretability and predictive power.
+5.	Model Training and Evaluation: Split the data into training and test sets and train the model on the training data. Evaluate the model's performance on the test data using relevant evaluation metrics.
+6.	Model Interpretability: Pay attention to model interpretability, especially if the project has real-world implications, use feature importance to explain model predictions.
+7.	Documentation: Provide clear and comprehensive documentation for your project. Describe the problem statement, data sources, data preprocessing steps, feature engineering, model selection, and evaluation metrics.
+8.	Data Visualization: Use effective data visualizations to communicate insights and model results. Visuals should be clear, informative, and visually appealing.
+9.	Model Deployment: Consider the deployment of the trained model in a real-world scenario if applicable. Discuss how the model can be integrated into an existing system or make predictions in real-time.
+10.	Communication: Clearly communicate your findings, methodology, and results in a way that is understandable to both technical and non-technical stakeholders.
+11.	Bonus Points: For bonus points, consider the following:
+•	Package your solution in a well-structured zip file with a detailed README explaining how to set up and run the end-to-end pipeline.
+•	Demonstrate excellent documentation skills by providing clear explanations of the models and their benefits to both stakeholders and potential users.
+•	Include interactive components or visualizations in your project to enhance the user experience and facilitate understanding of the data and results.
+
+
+
+Organizing Assets for Data Science Capstone Projects
+Before you begin working on your data science capstone project, it is essential to organize your assets in a structured manner to facilitate smooth submission and evaluation. Follow these guidelines for organizing your project assets during development and deployment:
+During Development: In this phase, organize your project files in the following folder structure:
+project-folder: Name this folder to reflect your project's name in all lowercase, using kebab casing with no spaces in the name.
+1.	notebooks: This folder should contain Jupyter notebooks or Python scripts where you perform data exploration, preprocessing, feature engineering, and model building.
+2.	data: This folder should contain the dataset(s) used in the project. Include both raw and processed data, along with a README file explaining the dataset's attributes.
+3.	models: This folder should contain the trained machine learning models or statistical models used in the project. Include model serialization files (e.g., Pickle files) and any model artifacts.
+4.	visuals: This folder should contain data visualizations and plots generated during exploratory data analysis or model evaluation. Visualizations should be saved as image files (e.g., PNG or JPEG).
+5.	README.md: This Markdown file should include a detailed description of your project, problem statement, data sources, and explanations of your code and models. Also, provide instructions on how to run your code and reproduce the results.
+Deployment: When setting up your project for deployment, follow these steps:
+1.	Package Dependencies: Ensure you have a requirements.txt file that lists all the Python dependencies required to run your project. This file is essential for installing the necessary libraries on the deployment server.
+2.	Model Serialization: Serialize your trained models into files that can be easily loaded and used for predictions. Save them in a specific folder (e.g., "models") within your project.
+3.	Data Preprocessing: Include any data preprocessing steps as separate functions or modules in your project. This ensures reproducibility during deployment.
+Remember to update your README.md with instructions on how to access and interact with your deployed project. Providing clear and concise documentation ensures ease of evaluation and demonstrates your professionalism as a data scientist.
+By organizing your data science capstone project assets effectively, you make it easier for evaluators to understand your work and appreciate the effort you put into building a compelling data-driven solution. Good luck with your data science capstone project!
+
+
+Submitting the Data Science Project
+Before submitting your data science capstone project, make sure to check the following points:
+1.	Functionality: Ensure that your data science project is working correctly and meets the defined objectives. All data preprocessing, modeling, and evaluation steps should be functional and produce valid results.
+2.	Code Structure: Organize your data science project code according to the advised folder structure. Keep all relevant files, notebooks, and scripts in appropriate directories to maintain a clear and logical project structure.
+3.	Deployment: If applicable, deploy your data science project to a cloud platform or hosting service to make it accessible for evaluation. The deployed application should be functional and demonstrate the intended data science solution.
+4.	GitHub Repository: Store your well-organized data science project code in a GitHub repository. Make sure to include all necessary files and folders, including data, notebooks, scripts, models, and visualizations.
+5.	Readme.md: Include a comprehensive Readme.md file in your GitHub repository. This document should provide clear instructions on setting up and running the data science project. Describe the project's purpose, problem statement, data sources, and methodology. Additionally, provide information on model training and evaluation, data preprocessing, and any necessary dependencies.
+If you can confidently answer "Yes" to all the above points, you are ready to submit your data science capstone project. Submit the following to your learning advisor:
+1.	GitHub Repo URL: Provide the URL to your GitHub repository containing the well-organized and documented data science project code.
+2.	Deployed Application URL: If applicable, include the URL to the deployed application. Ensure that the application is publicly accessible for evaluation purposes.
+
+
+
+
+
+
+
+
+
+What Should I Build? 
+Your data science capstone project is an opportunity to showcase your skills and abilities as a data scientist. It should reflect your expertise and demonstrate your problem-solving capabilities using data-driven approaches. Here are some guidelines and ideas to help you decide what to build for your data science capstone project:
+1.	Choose a Relevant Problem: Select a problem that is relevant and has practical applications in real-world scenarios. Look for challenges that involve data analysis, predictive modeling, recommendation systems, or any other data-related tasks that align with your interests.
+2.	Real Data: Whenever possible, work with real-world datasets. Real data provides unique challenges and insights that can enrich your learning experience and demonstrate your ability to handle real-world data.
+3.	Focus on Depth and Quality: Instead of tackling multiple small projects, focus on building a single project with depth and high-quality results. A comprehensive, well-executed project demonstrates your ability to work on complex data science problems.
+4.	Innovative Approaches: Consider using innovative data science techniques or methodologies in your project. Think beyond standard algorithms and explore cutting-edge research or unique solutions to stand out.
+5.	Data Visualization: Data visualization is a crucial aspect of data science projects. Showcase your skills by creating informative and visually appealing visualizations that communicate insights effectively.
+6.	Ethical Considerations: Be mindful of the ethical implications of your data science project. Ensure that you handle sensitive data responsibly and comply with privacy and security regulations.
+7.	Industry Relevance: If you have a specific industry or domain of interest, try to align your project with it. Demonstrating domain knowledge and expertise can be advantageous in certain job applications.
+8.	Reproducibility: Make your project reproducible. Provide clear instructions on how to set up the environment, reproduce the analysis, and obtain the same results.
+9.	Documentation: Maintain thorough documentation throughout your project. Explain your thought process, methodologies, data sources, and model evaluation in a clear and organized manner.
+10.	Keep Learning: Don't hesitate to learn new tools, libraries, or techniques while working on your project. Demonstrating a willingness to learn and adapt is highly valued by potential employers.
+11.	Bring Your Own Ideas: While the guide may provide some ideas, feel free to come up with your own project idea that excites you. Personal projects that reflect your interests and passion often lead to better outcomes.
+Remember, the goal is not just to complete the program but to create an impressive and impactful data science capstone project that showcases your abilities and sets you apart from other candidates. Put in the time, effort, and attention to detail to create a project that you can be proud of and that leaves a lasting impression on potential employers.
+
